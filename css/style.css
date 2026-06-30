@@ -225,3 +225,8 @@ section { padding: 80px 20px; }
 .dash-tab.active { color:var(--accent); border-bottom-color:var(--accent); }
 .tab-panel { display:none; }
 .tab-panel.active { display:block; }
+
+.hero h1, .hero p, .hero-content, .hero .eyebrow-label, .hero .tag { color: #fff !important; }
+
+[data-theme="dark"] .hero { background: transparent !important; }
+[data-theme="dark"] .hero-bg img { opacity: 1 !important; }
